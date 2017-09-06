@@ -1,0 +1,14 @@
+	html {
+				color: orangered;
+				font-family:sans-serif;
+				background-color:burlywood;
+			}
+			em {
+				color: #808080;
+			}
+			#tone {
+				color: #333333;
+			}
+#movie-subtitle {font-size: 24px;}
+#movie-title {font-size: 36px;}
+.script {font-family: monospace;}
