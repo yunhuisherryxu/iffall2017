@@ -1,0 +1,88 @@
+h1 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+h2 {
+	color: gray;
+	font-family: "Open Sans", sans-serif;
+	font-size: 26pt;
+}
+code {
+	color: gray;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+}
+.font-weight .normal {
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	font-size: 24pt;
+}
+.font-weight .bold {
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+.font-style .normal {
+	font-style: normal;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+.font-style .italic {
+	font-style: italic;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+.letter-spacing .normal {
+	letter-spacing: normal;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+.letter-spacing .positive {
+	letter-spacing: .3em;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+.letter-spacing .negative {
+	letter-spacing: -.06em;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+.text-decoration .none {
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+.text-decoration .underline {
+	text-decoration: underline;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+.text-decoration .line-through {
+	text-decoration: line-through;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24pt;
+}
+.text-decoration .overline {
+	text-decoration: overline;
+	font-family: "open sans", sans-serif;
+	font-size: 24pt;
+}
+.text-transform .none {
+	font-family: "open sans", sans-serif;
+	font-size: 24pt;
+}
+.text-transform .uppercase {
+	text-transform: uppercase;
+	font-size: 24pt;
+	font-family: "open sans", sans-serif;
+}
+.text-transform .lowercase {
+	text-transform: lowercase;
+	font-size: 24pt;
+	font-family: "open sans", sans-serif;
+}
+.text-transform .capitalize {
+	text-transform: capitalize;
+	font-size: 24pt;
+	font-family: "open sans", sans-serif;
+}
