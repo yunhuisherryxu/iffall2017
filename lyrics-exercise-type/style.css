@@ -1,0 +1,24 @@
+#song-title {
+	font-family: "Princess Sofia", cursive;
+	font-size: 24pt;
+	color: mediumvioletred;
+}
+html {
+	background-color: mistyrose;
+}
+#song-writer {
+	font-family: "Indie Flower", cursive;
+	font-size: 20pt;
+	color: mediumvioletred;
+}
+#song-lyrics {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14pt;
+	color: darkred;
+	letter-spacing: 0.1em;
+}
+.SFF {
+	font-family: "Indie Flower", cursive;
+	font-size: 16pt;
+	color: red;
+}
