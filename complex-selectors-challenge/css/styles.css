@@ -1,0 +1,36 @@
+header {
+	margin-bottom: 3rem;
+}
+p {
+	line-height: 1.6;
+}
+.see-all {
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+h1 {
+	font-size: 2.5rem;
+	border-top: 1pt;
+}
+h2 {
+	font-size: 1rem;
+	text-transofrm: uppercase;
+}
+h1, h2 {
+	font-weight: 100;
+}
+img {
+	width: 100%;
+}
+.cast div {
+	width: 25%;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+.cast ul li a :last-child {
+	font-style: italic;
+}
+.selected {
+	font-weight: bold;
+	font-color: black;
+}
