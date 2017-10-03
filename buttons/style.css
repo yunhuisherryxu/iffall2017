@@ -1,0 +1,583 @@
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+			a#btn_oldnavy {
+				display: inline-block;
+    			margin: auto;
+    			margin-top: 100px;
+    			font-family: 'Ubuntu', sans-serif;
+    			font-size: 40px;
+    			color: navy;
+    			text-decoration: none;
+			}
+
+			a#btn_oldnavy:hover {
+				color: white;
+				background-color: navy;
+			}
+
+			a#btn_cocacola {
+				display: inline-block;
+    			margin: auto;
+    			margin-top: 100px;
+    			font-family: 'Ubuntu', sans-serif;
+    			font-size: 45px;
+    			color: red;
+    			text-decoration: underline;
+
+			}
+			a#btn_cocacola:hover {
+				color: white;
+				background-color: red;
+			}
+			a#btn_ibm {
+				display: inline-block;
+    			margin: auto;
+    			margin-top: 100px;
+    			font-family: 'Droid Serif', serif;
+    			font-size: 50px;
+    			color: gray;
+    			text-decoration: none;
+    			text-transform: uppercase;
+			}
+			a#btn_ibm: hover {
+				color: white;
+				background-color: black;
+			}
+
+			a#btn_hasbro {
+				display: inline-block;
+    			margin: auto;
+    			margin-top: 100px;
+    			font-family: 'Indie Flower', cursive;
+    			font-size: 50px;
+    			color: white;
+    			text-decoration: none;
+    			background-color: blue;
+    			height: 80px;
+				box-sizing: border-box;
+				border-radius: 260px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+			}
+
+a#btn_hasbro:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+#appleimage {
+	margin-top: 54px;
+}
+
+			a#btn_harleydavidson {
+		display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Passion One', cursive;
+    font-size: 25px;
+    color: yellow;
+    text-decoration: none;
+    background-color: black;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    border: yellow 2px solid;
+    margin: auto;
+    margin-top: 105px;
+    padding: 11px 30px 0 30px;
+}
+
+a#btn_harleydavidson:hover {
+				background-color: orange;
+			}
+
+			a#btn_michaelkors {
+				display: inline-block;
+    		margin: auto;
+    margin-top: 100px;
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    color: gold;
+    text-decoration: none;
+    height: 48px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 105px;
+    padding: 11px 30px 0 30px;
+			}			
+a#btn_michaelkors:hover {
+				color: gray;
+			}
+
+			a#btn_sardella {
+				display: inline-block;
+    		margin: auto;
+    margin-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: deepskyblue;
+    text-decoration: none;
+    height: 48px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 60%;
+    padding: 8px 30px 0 30px;
+    border: deepskyblue 2px solid;
+			}	
+
+			a#btn_sardella:hover {
+				background-color: deepskyblue;
+				color: white;
+			}	
+			a#btn_samsung {
+				display: inline-block;
+    		margin: auto;
+    margin-top: 100px;
+    font-family: 'Arial', sans-serif;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    height: 48px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 0px;
+    padding: 8px 30px 0 30px;
+			}	
+			a#btn_samsung:hover {
+				color: #2ebfec; /* Old browsers */
+				color: : -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				color: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				color: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				color: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				color: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			};
+			
+			a#btn_facebook {
+				background-color: none;
+				margin-top: 140px;
+			}
+
+			a#btn_facebook:hover {
+				background-color: gray;
+			}
+			#facebook_image {
+  background: none;
+
+}
+#faceboook_image:hover {
+  background: gray;
+}
+			a#btn_instagram {
+				display: inline-block;
+    		margin: auto;
+    margin-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: deeppink;
+    text-decoration: none;
+    height: 48px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 60%;
+    padding: 8px 30px 0 30px;
+			}
+
+			a#btn_instagram:hover {
+				color: white;
+				background-color: deeppink;
+			}
+
+			a#btn_nike {
+				display: inline-block;
+    		margin: auto;
+    margin-top: 100px;
+    font-family: 'Arial', sans-serif;
+    font-size: 35px;
+    color: gray;
+    text-decoration: none;
+    height: 48px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 60%;
+    padding: 8px 30px 0 30px;
+    letter-spacing: 5px
+			}
+
+			a#btn_nike:hover {
+				color: black;
+			}
+			a#btn_newyorker {
+				display: inline-block;
+    		margin: auto;
+    margin-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 30px 0 30px;
+    border: black 2px solid;
+			}
+
+			a#btn_newyorker:hover {
+				color: blue;
+			}
+			a#btn_cartoonnetwork {
+			display: inline-block;
+    		margin: auto;
+    		margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    color: red;
+    text-decoration: none;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 30px 0 30px;	
+    letter-spacing: 3px;		
+}
+		a#btn_cartoonnetwork:hover {
+			color: gold;
+			text-decoration: underline;
+		}
+		a#btn_bissinger{
+	display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 29px;
+    color: white;
+    text-decoration: none;
+    height: 54px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 30px 0 30px;
+    letter-spacing: 3px;
+    background-color: brown;
+    border: black 2px solid;
+    border-radius: 200px;
+		}
+
+		a#btn_bissinger:hover {
+			color: black;
+			background-color: white;
+		}
+		a#btn_moo {
+	display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Arial', sans-serif;
+    font-size: 29px;
+    color: green;
+    text-decoration: none;
+    height: 54px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 30px 0 30px;
+    letter-spacing: 3px;
+		}
+a#btn_moo:hover{
+	letter-spacing: 10px;
+}
+
+a#btn_lyft {
+	display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: deeppink;
+    text-decoration: none;
+    height: 54px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 30px 0 30px;
+    letter-spacing: 4px;
+		}
+
+		a#btn_lyft:hover {
+			color: purple;
+			font-size: 50px;
+		}
+	#botanicalgarden-image {
+		margin-top:50px;
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+#botanicalgarden-image:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+
+	a#btn_pottermore {
+	display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    height: 54px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 30px 0 30px;
+		}
+		a#btn_pottermore:hover {
+			font-size: 40px;
+			text-decoration:underline;
+		}
+a#btn_mollyjogger {
+	display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+    height: 54px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 30px 0 30px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+a#btn_mollyjogger:hover {
+	border: 2px black solid;
+	border-radius: 20px;
+}
+a#btn_explodingkittens {
+	display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Passion One', cursive;
+    font-size: 34px;
+    color: orange;
+    text-decoration: none;
+    height: 54px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 30px 0 30px;
+    letter-spacing: 1px;
+}
+
+a#btn_explodingkittens:hover {
+	font-size:50px;
+	color: red;
+}
+a#btn_thecolorrun {
+	display: inline-block;
+    margin: auto;
+    margin-top: 120px;
+    font-family: 'Arial', sans-serif;
+    font-size: 34px;
+    color: gold;
+    text-decoration: none;
+    height: 132px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 77px;
+    padding: 8px 30px 0 30px;
+    letter-spacing: 1px;
+    background-color: deeppink;
+    border-radius: 70px;
+}
+a#btn_thecolorrun:hover {
+	color: purple;
+	background-color: white;
+}
+
+#foreflight-image {
+	margin-top: 50px;
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+#foreflight-image:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+
+
+#btn_fitbit {
+	display: inline-block;
+    margin: auto;
+    margin-top: 120px;
+    font-family: 'Pangolin', cursive;
+    font-size: 34px;
+    color: red;
+    text-decoration: none;
+    height: 132px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 77px;
+    padding: 8px 30px 0 30px;
+    letter-spacing: 1px;
+
+}
+#btn_fitbit:hover{
+	text-decoration:underline;
+}
+#tesla {
+	margin-top:50px;
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+#tesla:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+}
+
+
+		</style>
