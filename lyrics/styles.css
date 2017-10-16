@@ -1,0 +1,57 @@
+
+#SF {
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 50px;
+    margin-bottom: 0;
+}
+#forever {
+	font-size: 21px;
+	font-family: 'Permanent Marker', cursive;
+	margin-top:0;
+	margin-bottom:0;
+    transform: rotate(7deg);
+    margin-left: 500px;
+}
+em {font-size: 16px;
+color: red;
+font-family: 'Roboto', sans-serif;}
+p {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+html {
+	background-color: #4d8578;
+}
+.section {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	width: 800px;
+	height: 800px;
+	margin-left: 200px;
+	margin-top: 100px;
+	text-alignment: center;
+	border-radius: 50px;
+	border-color: red;
+}
+.border {
+	box-sizing: border-box;
+	width: 800px;
+	height: 800px;
+	margin-left: 210px;
+    margin-top: 10px;
+	border-radius: 50px;
+	border: red 2px solid;
+	position: absolute;
+}
+.image1 {
+	position: absolute;
+	top: 0;
+	left: 850px;
+}
+.image2 {
+	position: absolute;
+	left: 0;
+    top: 500px;
+}
+
