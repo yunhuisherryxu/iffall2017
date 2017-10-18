@@ -27,7 +27,7 @@ html {
 	box-sizing: border-box;
 	background-color: #ffffff;
 	width: 800px;
-	height: 800px;
+	height: 810px;
 	margin-left: 200px;
 	margin-top: 100px;
 	text-alignment: center;
@@ -37,7 +37,7 @@ html {
 .border {
 	box-sizing: border-box;
 	width: 800px;
-	height: 800px;
+	height: 810px;
 	margin-left: 210px;
     margin-top: 10px;
 	border-radius: 50px;
