@@ -1,0 +1,42 @@
+html, body {
+   height: 100%;
+   padding: 0;
+   margin: 0;
+}
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-decoration: none;
+}
+body {
+	background-image: url("images/oscar-wilde-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1 {
+	font-family: 'Satisfy', cursive;
+	color: #e4d5c2;
+    font-size: 47px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 414px;
+}
+@media screen and (max-width: 414px) {
+	h1 {
+font-size: 25px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 560px;
+	}
+@media screen and (max-width: 414px) {
+	body {
+		background-image: url("images/oscar-wilde-1-narrow-narrow.jpg");
+	}
+}
+
