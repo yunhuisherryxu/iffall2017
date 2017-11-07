@@ -1,0 +1,32 @@
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-decoration: none;
+}
+body {
+    background-image: url("images/oscar-wilde-3.jpg");
+    background-size: cover;
+    }
+h1 {
+	font-family: 'Satisfy', cursive;
+	color: #b9aa8e;
+	font-size: 46px;
+	margin-top: 530px;
+}
+@media screen and (max-width: 414px) {
+	h1 {
+	font-size: 33px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 380px;
+	}
+	@media screen and (max-width: 414px) {
+	body {
+		background-image: url("images/oscar-wilde-3-narrow-narrow.jpg");
+	}
+}
