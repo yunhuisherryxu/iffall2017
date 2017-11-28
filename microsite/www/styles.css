@@ -1,0 +1,378 @@
+.homepage {
+	background-image: url("images/band.jpg");
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 700px;
+}
+.homepagebuttons {
+	float: left;
+	padding-top: 440px;
+    padding-left: 306px;
+}
+a#homepagebutton, #aboutbutton, #musicbutton, #tourbutton, #shopbutton, #shopbutton, #sourcesbutton{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	font-size: 30px;
+	margin-left: 39px;
+	float: center;
+}
+a#homepagebutton:hover {
+	text-decoration: underline;
+}
+a#aboutbutton:hover {
+	text-decoration: underline;
+}
+a#musicbutton:hover {
+	text-decoration: underline;
+}
+a#tourbutton:hover {
+	text-decoration: underline;
+}
+a#sourcesbutton:hover {
+	text-decoration: underline;
+}
+a#shopbutton:hover {
+	text-decoration: underline;
+}
+h2:hover {
+	text-shadow: 2px 2px 5px red;
+}
+#homepage {
+	padding-left: 100px
+	float:left;
+	padding-left: 150px;
+    margin-top: 256px
+}
+#about {
+	float: left;
+	padding-left: 480px;
+     padding-top: 62px;
+    margin-top: 0;
+}
+#music {
+	float: left;
+	margin-left: 160px;
+    margin-top: 85px;
+}
+#tour {
+	float: left;
+	padding-left: 60px;
+    margin-top: 86px;
+}
+#shop {
+	float: left;
+	padding-left: 40px;
+    margin-top: 87px;
+}
+#sources {
+	float:left ;
+	padding-left: 90px;
+    margin-top: 87px;
+}
+
+#wonderfulwonderful {
+	float: left;
+	padding-left: 310px;
+}
+
+
+.aboutpage {
+	background-color: black;
+	box-sizing: border-box;
+	height: 890px;
+	padding-top: 10px;
+}
+.abouttext {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+#band {
+	height: 94px;
+    width: 448px;
+    margin-top: -70px;
+    margin-left: 554px;
+}
+#about-image {
+	height: 277px;
+    width: 403px;
+    padding-left: 132px;
+    padding-top: 180px;
+    float: left;
+}
+h1 {
+	color: white;
+	font-family:'Ubuntu', sans-serif;
+	float: center;
+}
+h2 {
+	color: #b95b53;
+	font-family:'Ubuntu', sans-serif;
+	font-size: 50px;
+}
+h3 {
+	color: white;
+	font-size: 50px;
+	font-family:'Ubuntu', sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+    padding-top: 20px;
+}
+#ai {
+	height: 260px;
+	width: 260px;
+}
+#transparent {
+    height: 75px;
+    width: 375px;
+    float: center;
+    margin-top: -310px;
+    margin-left: 21px;
+    opacity: 0.5;
+}
+.abouttext {
+    color: white;
+    text-align: left;
+    float: right;
+    margin-top: -365px;
+    margin-left: 677px;
+    margin-right: 180px;
+    line-height: 23px;
+    font-size: 16px;
+}
+.album {
+	background-color: #572921;
+    box-sizing: border-box;
+    height: 790px;
+    margin-top: -140px;
+}
+h4 {
+	color: white;
+	font-size: 50px;
+	font-family:'Ubuntu', sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+    padding-top: 58px;
+}
+.album-image1 {
+	float: left;
+	margin-left: 130px;
+    margin-top: 30px;
+}
+.album-image2 {
+	float: left;
+	margin-left: 50px;
+    margin-top: 30px;
+}
+.album-image3 {
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.album-image4 {
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.album-image5 {
+	float: left;
+	margin-left: 130px;
+    margin-top: 40px;
+}
+.album-image6 {
+	float:left;
+	margin-left: 50px;
+    margin-top: 40px;
+}
+.album-image7 {
+	float: left;
+	margin-left: 50px;
+    margin-top: 40px;
+}
+.tour {
+	background-color:#78272c;
+	box-sizing: border-box;
+	height: 700px;
+	margin-top: -50px;
+}
+.tourtext {
+	color: white;
+	font-family:'Ubuntu', sans-serif;
+	float: left;
+	padding-left: 300px;
+    margin-top: 43px;
+    font-weight: bold;
+    line-height: 19.2px;
+}
+.songs {
+	background-color:#a43130;
+	box-sizing: border-box;
+	height: 1670px;
+    margin-top: -16px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.song1 {
+	padding-top: 60px;
+    margin-left: 130px;
+}
+.song2 {
+	padding-top: 50px;
+	margin-left: 130px;
+}
+.song3 {
+	margin-left: 760px;
+    margin-top: -570px;
+}
+.song4 {
+	margin-left: 760px;
+	margin-top: 44px;
+}
+.song5 {
+	margin-left: 130px;
+	margin-top: 50px;
+}
+.song6 {
+	margin-left: 130px;
+    margin-top: 60px;
+}
+.song7 {
+	margin-left: 760px;
+    margin-top: -590px;
+}
+.sources {
+	background-color: #a8574f;
+	box-sizing: border-box;
+	height: 700px;
+	margin-top: -350px;
+}
+a#tickets1, #tickets2, #tickets3, #tickets4, #tickets5 {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 10px 40px 0 40px;
+	background-color: white;
+	color: #78272c;
+	font-size: 20px;
+	text-decoration: none;
+	float: right;
+	margin-top: 48px;
+    margin-right: 360px;
+}
+.wonderfulwonderfultext {
+	float: left;
+	margin-top: -281px;
+    margin-left: 420px;
+}
+.battleborntext {
+	float: left;
+	margin-top: -929px;
+    margin-left: -328px;
+}
+.dayagetext {
+	float: left;
+    margin-top: -490px;
+    margin-left: -324px;
+}
+.themantext {
+	float: left;
+	margin-top: -490px;
+    margin-left: 310px;
+}
+.peaceofmindtext {
+	float: left;
+	margin-top: -790px;
+    margin-left: 306px;
+}
+.hotfusstext {
+	float: left;
+	margin-top: 16px;
+    margin-left: 419px;
+}
+.runforcovertext {
+	float: left;
+	margin-top: -193px;
+    margin-left: 310px;
+}
+
+#sourcestext {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 650px;
+	color: white;
+	padding-top: 50px;
+}
+#websites {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 340px;
+	color: white;
+	padding-top: -10px;
+	float: center;
+}
+#tourtext {
+	   font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 527px;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+.section-five{
+  box-sizing: border-box;
+  height: 98px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: -80px;
+}
+.corner-icon {
+  float: right;
+  padding-top: 20px;
+}
+
+#copyright {
+	padding-top: 10px;
+	margin-left: 1280px;
+}
+.album-image1:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image2:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image3:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image4:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image5:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image6:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image7:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets1:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets2:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets3:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets4:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets5:hover{
+	box-shadow: 10px 10px 50px black;
+}
