@@ -3,6 +3,7 @@
 	background-size: cover;
 	padding-top: 100px;
 	padding-bottom: 700px;
+	width: 100%;
 }
 .homepagebuttons {
 	float: left;
@@ -94,8 +95,7 @@ h2:hover {
     margin-left: 554px;
 }
 #about-image {
-	height: 277px;
-    width: 403px;
+    width: 28%;
     padding-left: 132px;
     padding-top: 180px;
     float: left;
