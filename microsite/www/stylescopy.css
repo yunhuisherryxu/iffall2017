@@ -25,6 +25,7 @@ body {
     background: -o-linear-gradient(black, #b04f48); 
     background: -moz-linear-gradient(black, #b04f48); 
     background: linear-gradient(black, #b04f48); 
+    width: 1440px;
 }
 .homepage {
 	background-image: url("images/band.jpg");
