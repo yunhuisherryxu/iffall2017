@@ -1,0 +1,482 @@
+
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: black; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+}
+
+#myBtn:hover {
+    background-color: #555; 
+}
+
+body {
+	background: black; 
+    background: -webkit-linear-gradient(black, #b04f48);
+    background: -o-linear-gradient(black, #b04f48); 
+    background: -moz-linear-gradient(black, #b04f48); 
+    background: linear-gradient(black, #b04f48); 
+}
+.homepage {
+	background-image: url("images/band.jpg");
+	background-size: cover;
+	padding-top: 8%;
+	padding-bottom: 50%;
+	width: 100%;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+}
+.homepagebuttons {
+	float: left;
+	padding-top: 440px;
+    padding-left: 306px;
+}
+a#homepagebutton, #aboutbutton, #musicbutton, #tourbutton, #shopbutton, #shopbutton, #sourcesbutton{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	font-size: 30px;
+	margin-left: 39px;
+	float: center;
+}
+a#homepagebutton:hover {
+	color: #b04f48;
+}
+a#aboutbutton:hover {
+	color: #b04f48;
+}
+a#musicbutton:hover {
+	color: #b04f48;
+}
+a#tourbutton:hover {
+	color: #b04f48;
+}
+a#sourcesbutton:hover {
+	color: #b04f48;
+}
+a#shopbutton:hover {
+	color: #b04f48;
+}
+h2:hover {
+	text-shadow: 2px 2px 5px gray;
+}
+#homepage {
+	padding-left: 100px
+	float:left;
+	padding-left: 150px;
+    margin-top: 256px
+}
+#about {
+	float: left;
+	padding-left: 480px;
+     padding-top: 62px;
+    margin-top: 0;
+}
+#music {
+	float: left;
+	margin-left: 160px;
+    margin-top: 85px;
+}
+#tour {
+	float: left;
+	padding-left: 60px;
+    margin-top: 86px;
+}
+#shop {
+	float: left;
+	padding-left: 40px;
+    margin-top: 87px;
+}
+#sources {
+	float:left ;
+	padding-left: 90px;
+    margin-top: 87px;
+}
+
+#wonderfulwonderful {
+	float: left;
+	padding-left: 310px;
+}
+
+
+.aboutpage {
+	box-sizing: border-box;
+	height: 890px;
+	padding-top: 10px;
+}
+.abouttext {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+#band {
+    height: 100%;
+    width: 30%;
+    margin-top: -120px;
+    margin-left: 497px;
+}
+#about-image {
+   
+    padding-top: 180px;
+    float: left;
+    width: 33%;
+    padding-left: 96px;
+}
+h1 {
+	color: white;
+	font-family:'Ubuntu', sans-serif;
+	float: center;
+}
+h2 {
+	color: #b95b53;
+	font-family:'Ubuntu', sans-serif;
+	font-size: 50px;
+}
+h3 {
+	color: white;
+	font-size: 50px;
+	font-family:'Quicksand', sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+    padding-top: 20px;
+}
+#ai {
+	height: 500px;
+	width: 500px;
+}
+#transparent {
+    height: 75px;
+    width: 375px;
+    float: center;
+    margin-top: -310px;
+    margin-left: -38px;
+    opacity: 0.5;
+}
+.abouttext {
+    color: white;
+    text-align: left;
+    float: right;
+    margin-top: -365px;
+    margin-left: 677px;
+    margin-right: 180px;
+    line-height: 23px;
+    font-size: 16px;
+}
+.album {
+    box-sizing: border-box;
+    height: 790px;
+    margin-top: -140px;
+}
+h4 {
+	color: white;
+	font-size: 50px;
+	font-family:'Quicksand', sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+    padding-top: 58px;
+}
+.album-image1 {
+	background-image: url("images/Battleborn.png");
+	height:500px;
+	width:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 190px;
+    margin-top: 30px;
+}
+.album-image2 {
+	background-image: url("images/Dayage.png");
+	height:500px;
+	width:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 20px;
+    margin-top: 30px;
+}
+.album-image3 {
+    background-image: url("images/peace of mind.png");
+	height:500px;
+	width:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    float: left;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+.album-image4 {
+    background-image: url("images/the man.jpg");
+	height:500px;
+	width:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.album-image5 {
+    background-image: url("images/wonderful wonderful cover.jpg");
+	height:500px;
+	width:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    float: left;
+        margin-left: -1020px;
+    margin-top: 540px;
+}
+.album-image6 {
+    background-image: url("images/hot fuss.png");
+	height:500px;
+	width:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.tour {
+	box-sizing: border-box;
+	height: 700px;
+	margin-top: 1070px;
+}
+.tourtext {
+	color: white;
+	font-family:'Ubuntu', sans-serif;
+	float: left;
+	padding-left: 300px;
+    margin-top: 43px;
+    font-weight: bold;
+    line-height: 19.2px;
+}
+.songs {
+	box-sizing: border-box;
+	height: 1670px;
+    margin-top: -16px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.song1 {
+	padding-top: 60px;
+    margin-left: 130px;
+}
+.song2 {
+	padding-top: 50px;
+	margin-left: 130px;
+}
+.song3 {
+	margin-left: 760px;
+    margin-top: -570px;
+}
+.song4 {
+	margin-left: 760px;
+	margin-top: 44px;
+}
+.song5 {
+	margin-left: 130px;
+	margin-top: 50px;
+}
+.song6 {
+	margin-left: 130px;
+    margin-top: 60px;
+}
+.song7 {
+	margin-left: 760px;
+    margin-top: -590px;
+}
+.sources {
+	box-sizing: border-box;
+	height: 700px;
+	margin-top: -350px;
+}
+a#tickets1, #tickets2, #tickets3, #tickets4, #tickets5 {
+	display: inline-block;
+	height: 46px;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 10px 40px 0 40px;
+	background-color: white;
+	color: #78272c;
+	font-size: 20px;
+	text-decoration: none;
+	float: right;
+	margin-top: 50px;
+    margin-right: 360px;
+}
+.wonderfulwonderfultext {
+	float: left;
+	margin-top: -281px;
+    margin-left: 420px;
+}
+.battleborntext {
+	float: left;
+	margin-top: -929px;
+    margin-left: -328px;
+}
+.dayagetext {
+	float: left;
+    margin-top: -490px;
+    margin-left: -324px;
+}
+.themantext {
+	float: left;
+	margin-top: -490px;
+    margin-left: 310px;
+}
+.peaceofmindtext {
+	float: left;
+	margin-top: -790px;
+    margin-left: 306px;
+}
+.hotfusstext {
+	float: left;
+	margin-top: 16px;
+    margin-left: 419px;
+}
+.runforcovertext {
+	float: left;
+	margin-top: -193px;
+    margin-left: 310px;
+}
+
+#sourcestext {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 650px;
+	color: white;
+	padding-top: 50px;
+}
+#websites {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 340px;
+	color: white;
+	padding-top: -10px;
+	float: center;
+}
+#tourtext {
+	   font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 527px;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+.section-five{
+  box-sizing: border-box;
+  height: 98px;
+  width: 100%;
+  color: white;
+  margin-top: -80px;
+}
+.corner-icon {
+  float: right;
+  padding-top: 20px;
+}
+
+#copyright {
+	padding-top: 50px;
+	margin-left: 1280px;
+}
+.album-image1:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image2:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image3:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image4:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image5:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image6:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image7:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets1:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets2:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets3:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets4:hover{
+	box-shadow: 10px 10px 50px black;
+}
+a#tickets5:hover{
+	box-shadow: 10px 10px 50px black;
+}
+.album-image1:hover .overlay{
+	opacity:1;
+}
+.overlay {  
+      background:rgba(255, 255, 255, .85);
+      text-align:center;
+      opacity:0;   
+      width:100%;height:100%; 
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+
+      text-decoration: none;
+      color: black;
+      font-family: 'Ubuntu', sans-serif;
+      line-height: 25px;
+  }
+  a#imgbutton {
+  	margin-top:90px;
+  	color: black;
+  	font-size: 25px;
+  	text-decoration: none;
+  }
+  a#imgbutton:hover {
+  	color: #b04f48;
+  }
+
+ .album-image2:hover .overlay{
+	opacity:1;
+}
+
+  .album-image3:hover .overlay{
+	opacity:1;
+}
+
+  .album-image4:hover .overlay{
+	opacity:1;
+}
+
+.album-image5:hover .overlay{
+	opacity:1;
+}
+.album-image6:hover .overlay{
+	opacity:1;
+}
+.ticketbuttons {
+	font-family: 'Ubuntu', sans-serif;
+}
+#copyright {
+	font-family: 'Ubuntu', sans-serif;;
+}
